@@ -1,5 +1,4 @@
 # curso_docker
-Repositório projeto integrador II
 
 Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente básico virtualizado para curso de docker.
 
