@@ -29,7 +29,7 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
 		docker.vm.network "private_network", ip: "192.168.50.10"
 		
 		# Executa script para a configuracao do ambiente
-		docker.vm.provision "shell", inline: "/bin/bash /vagrant/init-conf.sh curso_docker"
+		docker.vm.provision "shell", inline: "/bin/bash /vagrant/init-config.sh curso_docker"
 
 		
 		# Restart da VM para efetivar as atualizacoes dos pacotes instalados
