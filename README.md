@@ -1,6 +1,6 @@
 # curso_docker
 
-Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente básico virtualizado para curso de docker.
+Neste repositorio conterá os arquivos e procedimentos necessários para subir um ambiente básico virtualizado para estudo sobre docker.
 
 Listagem de arquivos:
 		
@@ -18,4 +18,7 @@ Procedimeto para configuração do ambiente
 Executando os procedimentos acima,será criado no VirtualBox uma VM:
 	
 	curso_docker: 192.168.50.10
+	software instalados:
+		docker ce;
+		docker-compose;
 
